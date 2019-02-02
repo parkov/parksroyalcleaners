@@ -1,0 +1,304 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+h2 {
+  margin-bottom: 0.8em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+h3 {
+  margin: 2em 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+iframe {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: 0.25s background-color;
+}
+
+.navbar-bg {
+  background-color: rgba(67, 24, 81, 1);
+}
+
+.nav-link {
+  padding-top: 1em;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.7);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.logo {
+  margin-right: 1em;
+  width: 250px;
+  padding-top: 1em;
+  padding-bottom: 1.4em;
+}
+
+.navbar-bg .logo {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  min-height: 600px;
+  padding-left: 1em;
+  padding-top: 3em;
+  padding-right: 1em;
+  background-color: purple;
+  background:  linear-gradient(
+      rgba(67, 24, 81, 0.8), 
+      rgba(67, 24, 81, 0.8)
+    ), url("../img/gallery/rack.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.splash h1 {
+  margin-top: 2em;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.splash a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.splash a:hover {
+  text-decoration: underline;
+}
+
+.splash p {
+  margin-top: 2em;
+}
+
+.subtitle {
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+}
+
+section .container {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+.carousel-item {
+  padding-top: 19px;
+}
+
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+section#pricing .container {
+  padding-bottom: 1em;
+}
+
+section:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+#pricing .tables {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 4em;
+}
+
+#pricing .table {
+  width: 33%;
+  max-width: 230px;
+  margin-bottom: 4em;
+}
+
+#hours .table {
+  max-width: 300px;
+  margin-left: -0.75rem;
+}
+
+.table td:nth-child(2) {
+  text-align: right;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.coupon-link,
+.coupon-link:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.coupon {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #411D4F;
+}
+
+.coupon h3 {
+  margin: 1em 0 0.6em;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.coupon p {
+  margin: 0 6em;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.coupon p + p {
+  margin-bottom: 2.5em;
+}
+
+.coupon .num {
+  font-size: 40px;
+}
+
+.coupon-logo {
+  padding: 1.2em 1em 1em;
+  background-color: #411D4F;
+  text-align: center;
+}
+
+.coupon-logo img {
+  width: 40%;
+  max-width: 200px;
+}
+
+.coupon .click {
+  display: inline-block;
+  padding: 0.5em 1em 0.4em;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.9);
+  transition: 0.2s all;
+}
+
+.coupon-link:hover .click {
+  background-color: #411D4F;
+}
+
+.question {
+  margin-bottom: 2.5em;
+}
+
+footer {
+  background-color: #333133;
+  padding: 8em 2em 6em;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer a,
+footer a:hover {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+
+  .navbar:not(.navbar-bg) {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .splash h1 {
+    font-size: 32px;
+  }
+
+  .tables {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #pricing {
+    margin-bottom: 4em;
+  }
+
+  #pricing h3 {
+    margin: 2em 15px 1em;
+  }
+
+  #pricing .tables {
+    margin: 0 15px;
+  }
+
+  #pricing .table {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
